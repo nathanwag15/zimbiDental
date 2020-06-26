@@ -1,0 +1,138 @@
+.all-content-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.office-logo{
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* Main info */
+.content-wrapper{
+    background-color: #fff;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    border-top: 3px solid #46691a;
+    width: 100%;
+    height: 600px;
+}
+.main-info{
+    margin-left: 331.500px;
+    margin-right: 331.500px; 
+    width: 1200px;
+    height: 524px;
+    padding: 20px;
+    display: grid ;
+    grid-template-columns: 1.5fr 1fr;
+    align-items: center;
+}
+
+.main-info > .left-column {
+    text-align: center;
+    padding: 20px;   
+}
+
+.content-wrapper > .main-info > .left-column > .heading-area{
+    border-bottom: 5px solid #46691a;
+    transition: 1s;
+    border-radius: 10%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+}
+
+.content-wrapper > .main-info > .left-column > .heading-area > .eden {
+    font-family: 'Lora', serif;
+    font-size: .6em;
+    padding-bottom: 20px;
+}
+
+.content-wrapper > .main-info > .left-column > .heading-area:hover{
+    border-bottom: 5px  solid #7eb838;
+}
+
+.main-info > .right-column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-info > .right-column img{
+    height: 400px;    
+}
+
+/* Services */
+.services{
+    width: 100vw;
+    color: #fff;
+    display: flex;
+    justify-items: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+.services > .title{
+    text-align: center;
+    padding: 20px;
+}
+.services > .catagories{
+    width: 1863px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
+    justify-items: center;
+}
+
+.services > .catagories > .link{
+    width: calc(357px-15px);
+    height: calc(372px-15px);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: .5s;
+    padding: 15px;
+    
+}
+
+.services > .catagories > .link > .logo{
+    border: 2px solid #fff;
+    border-radius: 100%;
+    padding: 20px;
+    transition: .2s;
+    margin-left: 35.156px;
+    margin-right: 35.172;
+    margin-bottom: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.services > .catagories > .link > .logo img{
+    height: 156px;
+    width: 156;
+}
+
+.link > .paragraph {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.link > .header {
+    font-family: 'IM Fell English SC', serif;
+    font-size: .7rem;
+    text-align: center;
+}
+
+
+
+.services > .catagories > .link > .logo:hover{
+    background-color: #46691a;
+}
